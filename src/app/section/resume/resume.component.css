@@ -28,7 +28,7 @@ p{
   font-weight: 500;
 }
 .card{
-  width: fit-content;
+  /*width: fit-content;*/
   padding: 0;
   border: 0;
   background: transparent;

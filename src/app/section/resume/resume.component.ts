@@ -18,31 +18,32 @@ export class ResumeComponent {
         'Assist on creating back end application using Spring Boot'
       ]),
     new Job(
-      'Laranjeiras Corp, Recife Brazil',
-      'Intern',
-      'Aug 2021 - Jan 2023',
+      'The Doral Yard, Miami FL',
+      'Bartender',
+      'Jan 2023 - Jun 2023',
       [
-        'Assist on Design of MySql Database.',
-        'Assist on creating front end application using Angular',
-        'Assist on creating back end application using Spring Boot'
+        'Quickly prepare a variety of cocktails for customers.',
+        'Be able to maintain an entire bar entertained and well served throughout the night.',
+        'Be aware of the customer\'s limits and serve accordingly.',
+        'Assist barback with preparations for the day.'
       ]),
     new Job(
-      'Laranjeiras Corp, Recife Brazil',
-      'Intern',
-      'Aug 2021 - Jan 2023',
+      'The Doral Yard, Miami FL',
+      'Barback Leader',
+      'Oct 2022 - Jan 2023',
       [
-        'Assist on Design of MySql Database.',
-        'Assist on creating front end application using Angular',
-        'Assist on creating back end application using Spring Boot'
+        'Manage and coordinate a team of 3 to ensure preparation for the upcoming day',
+        'Aware of bartenders supply and restock as needed.',
+        'Maintain organization throughout the bar for operations to run smoothly.',
       ]),
     new Job(
-      'Laranjeiras Corp, Recife Brazil',
-      'Intern',
-      'Aug 2021 - Jan 2023',
+      'A to Z Towels, Miami FL',
+      'Shipping Manager',
+      'May 2016 - Oct 2022',
       [
-        'Assist on Design of MySql Database.',
-        'Assist on creating front end application using Angular',
-        'Assist on creating back end application using Spring Boot'
+        'Managed and organized inventory throughout three storage locations',
+        'Created a company-wide system that optimized storage operations in the department',
+        'Designed an application to display merchandise for digital totem'
       ])
   ]
 
