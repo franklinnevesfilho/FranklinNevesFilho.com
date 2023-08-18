@@ -1,0 +1,62 @@
+<div class="container">
+  <p class="h1 title text-uppercase text-center">Resume</p>
+  <div class="row">
+    <p class="h2 text-uppercase header">Education</p>
+    <div class="row ms-3 mt-2 d-flex">
+      <p class="h5 text-accent">Florida International University | Predicted 2024 |</p>
+      <p class="lead ms-3">Bachelor of computer science</p>
+    </div>
+    <div class="row ms-3 mt-2">
+      <p class="h5 text-accent">Miami Dade College | 2022 |</p>
+      <p class="lead ms-3">Associates degree in Computer Science</p>
+    </div>
+    <div class="row ms-3 mt-2">
+      <p class="h5 text-accent">Ronald W Reagan Doral Senior High School | 2021 |</p>
+      <p class="lead ms-3">High School Diploma</p>
+    </div>
+  </div>
+  <div class="row justify-content-evenly">
+    <p class="h2 text-uppercase header">Experience</p>
+    <div class="ms-3 mt-2 card" *ngFor="let job of jobsList">
+      <p class="h5 card-header">{{job.companyName}} <span class="position">- {{job.position}}</span></p>
+      <p class="lead">{{job.datesWorked}}</p>
+      <ul class="job-description ms-2">
+        <li *ngFor="let desc of job.descriptions">{{ desc }}</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row mt-2">
+    <p class="h2 text-uppercase header">Skills</p>
+    <ul class="list-group list-group-flush ms-3">
+      <li class="list-group-item">Leadership</li>
+      <li class="list-group-item">Customer Service</li>
+      <li class="list-group-item">Multitasking</li>
+      <li class="list-group-item">Time Management</li>
+      <li class="list-group-item">Self-Motivated</li>
+      <li class="list-group-item">Junior Android Developer</li>
+      <li class="list-group-item">
+        Knowledge of:
+        <ul>
+          <li>Java</li>
+          <li>Arduino</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS / TS</li>
+          <li>Angular</li>
+          <li>Bootstrap</li>
+        </ul>
+      </li>
+      <li class="list-group-item">
+      Trilingual
+        <ul>
+          <li>Portuguese</li>
+          <li>English</li>
+          <li>Intermediate Spanish</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="row mt-2">
+    <p class="h2 text-uppercase header">Certifications / badges</p>
+  </div>
+</div>

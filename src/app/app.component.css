@@ -1,0 +1,34 @@
+app-navbar{
+  background-color: black;
+  height: 50px;
+  color: white;
+}
+
+.container-fluid{
+  position: absolute;
+  top: 3.80rem;
+  bottom: 0;
+  overflow-y: scroll;
+}
+/*****************************************************************************************/
+/********************************* Scroll bar ********************************************/
+/*****************************************************************************************/
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+}
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 0.5rem;
+
+  opacity: 0;
+}
+::-webkit-scrollbar-thumb:active {
+  background: darkgrey;
+
+}
+/*****************************************************************************************/
+/*****************************************************************************************/

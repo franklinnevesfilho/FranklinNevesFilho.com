@@ -1,0 +1,38 @@
+p{
+  font-weight: 500;
+  color: var(--primary-white);
+}
+.lead{
+  color: var(--primary-white);
+}
+.text-outline{
+  -webkit-text-stroke: 1px var(--primary-grey);
+}
+.img-thumbnail{
+  background: var(--primary-grey);
+  border-color: var(--primary-grey);
+}
+.list-group-item{
+  background: transparent;
+  border-color: var(--primary-white);
+  color: var(--primary-white);
+}
+.pic{
+  width: 15rem;
+}
+.side-comment{
+  text-align: center;
+  width: fit-content;
+  padding: 0.25rem;
+  background-color: var(--secondary-grey);
+  color: var(--primary-white);
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  flex-shrink: 1;
+}
+.school-name{
+  color: #1c1c4f;
+  -webkit-text-stroke: 1.5px #e59c00;
+  font-size: 30px;
+  font-weight: 800;
+}

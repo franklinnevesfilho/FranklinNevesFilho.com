@@ -1,0 +1,42 @@
+p{
+  color: var(--primary-white)
+}
+
+.title{
+  color: var(--primary-white);
+}
+.header{
+  border-top: 1px solid var(--primary-white);
+  border-bottom: 1px solid var(--primary-white);
+}
+
+.text-accent{
+  width: max-content;
+  color: var(--primary-white);
+  padding: 3px;
+  font-weight: bold;
+  font-style: italic;
+  border-bottom: 1px solid var(--primary-white);
+ }
+.position{
+
+}
+.list-group-item{
+  background: transparent;
+  border-color: var(--primary-white);
+  color: var(--primary-white);
+  font-weight: 500;
+}
+.card{
+  width: fit-content;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+.card-header{
+  background: var(--secondary-color);
+  border: 0;
+}
+.job-description{
+  color: var(--primary-white);
+}
