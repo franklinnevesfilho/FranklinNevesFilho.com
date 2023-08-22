@@ -1,9 +1,9 @@
 p{
   color: var(--primary-white)
 }
-
-.title{
-  color: var(--primary-white);
+.container.resume{
+  max-width: 60%;
+  
 }
 .header{
   border-top: 1px solid var(--primary-white);
@@ -19,7 +19,10 @@ p{
   border-bottom: 1px solid var(--primary-white);
  }
 .position{
-
+  font-style: italic;
+}
+.list-group{
+  max-width: fit-content;
 }
 .list-group-item{
   background: transparent;
