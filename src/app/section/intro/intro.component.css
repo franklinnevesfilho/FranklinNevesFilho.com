@@ -1,0 +1,14 @@
+p{
+  color: var(--primary-white);
+}
+
+.img-thumbnail{
+  background: var(--primary-grey);
+  border-color: var(--primary-grey);
+  width: 15rem;
+}
+.divider{
+  opacity: 100%;
+  border-width: 2px;
+  border-color: var(--primary-grey);
+}

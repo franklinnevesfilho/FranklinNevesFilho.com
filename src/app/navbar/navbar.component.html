@@ -1,13 +1,13 @@
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top border-bottom"  id="navbar-main">
   <div class="container-fluid justify-content-center">
-    <logo [color]="logoColor" fontSize="30px"></logo>
-<!--    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">-->
-<!--      <span class="navbar-toggler-icon"></span>-->
-<!--    </button>-->
-<!--    <div class="collapse navbar-collapse" id="navbar">-->
-<!--      <div class="navbar-nav ms-auto">-->
-<!--        <a class="nav-link fw-bold me-3" href="#" *ngFor="let link of navLinks">{{ link }}</a>-->
-<!--      </div>-->
-<!--    </div>-->
+    <logo class="logo ms-lg-2" [color]="logoColor" fontSize="30px"></logo>
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar" >
+      <div class="navbar-nav ms-lg-auto me-lg-4">
+        <a class="nav-link text-center fw-bold me-3" href="#" *ngFor="let link of navLinks" (click)="navBar(link)" >{{ link }}</a>
+      </div>
+    </div>
   </div>
 </nav>

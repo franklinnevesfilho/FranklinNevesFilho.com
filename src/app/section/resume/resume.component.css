@@ -2,8 +2,15 @@ p{
   color: var(--primary-white)
 }
 .container.resume{
-  max-width: 60%;
-  
+  max-width: 85%;
+
+}
+.header1{
+  margin-top: 5px;
+  font-weight: bold;
+  background-color: var(--primary-grey);
+  border: 1px solid var(--primary-grey);
+  border-radius: .5rem;
 }
 .header{
   border-top: 1px solid var(--primary-white);
