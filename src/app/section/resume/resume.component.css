@@ -1,9 +1,16 @@
 p{
   color: var(--primary-white)
 }
+.container.resume{
+  max-width: 85%;
 
-.title{
-  color: var(--primary-white);
+}
+.header1{
+  margin-top: 5px;
+  font-weight: bold;
+  background-color: var(--primary-grey);
+  border: 1px solid var(--primary-grey);
+  border-radius: .5rem;
 }
 .header{
   border-top: 1px solid var(--primary-white);
@@ -19,7 +26,10 @@ p{
   border-bottom: 1px solid var(--primary-white);
  }
 .position{
-
+  font-style: italic;
+}
+.list-group{
+  max-width: fit-content;
 }
 .list-group-item{
   background: transparent;

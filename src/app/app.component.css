@@ -18,8 +18,6 @@ app-navbar{
   width: 1rem;
 }
 
-::-webkit-scrollbar-track {
-}
 ::-webkit-scrollbar-thumb {
   background: grey;
   border-radius: 0.5rem;

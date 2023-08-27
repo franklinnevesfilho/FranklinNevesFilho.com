@@ -1,1 +1,26 @@
-<p>projects works!</p>
+<div class="container">
+  <div class="row">
+    <div class="row mb-4 text-center align-items-center">
+      <div class="col">
+        <p class="h1 header pb-1">Projects</p>
+        <p class="h5">All projects are posted on my</p>
+        <a class="link" href="https://www.github/franklinnevesfilho" target="_blank">Github</a>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-4" *ngFor="let project of projects">
+          <div class="card text-center m-3">
+            <div class="card-body">
+              <p class="h4 card-title">{{project.name}}</p> </div>
+            <img src="{{project.imgPath}}" alt="..." class="card-img">
+            <p class="card-text p-2">
+              {{project.description}}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
