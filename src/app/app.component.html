@@ -1,23 +1,18 @@
-<app-navbar (buttonPress)="onClicked($event)"></app-navbar>
+<app-navbar></app-navbar>
 <div class="container-fluid">
-  <div class="row pb-5 mx-4">
-    <div class="col-xs-12">
-      <app-intro></app-intro>
-    </div>
-  </div>
-  <div class="row mt-5 pb-5 mx-4">
-    <div class="col-xs-12">
-      <app-projects #project></app-projects>
-    </div>
-  </div>
-  <div class="row mt-5 pb-5 mx-4">
-    <div class="col-xs-12">
-      <app-resume #resume></app-resume>
-    </div>
-  </div>
   <div class="row mt-5 mx-4">
     <div class="col-xs-12">
-      <app-about-me #aboutme></app-about-me>
+      <app-about-me ></app-about-me>
+    </div>
+  </div>
+  <div class="row mt-5 pb-5 mx-4">
+    <div class="col-xs-12">
+      <app-projects></app-projects>
+    </div>
+  </div>
+  <div class="row mt-5 pb-5 mx-4">
+    <div class="col-xs-12">
+      <app-resume ></app-resume>
     </div>
   </div>
 </div>
