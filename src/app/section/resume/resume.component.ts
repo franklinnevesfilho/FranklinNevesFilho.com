@@ -9,13 +9,13 @@ import {Job} from "./Job.model";
 export class ResumeComponent {
   jobsList: Job[] = [
     new Job(
-      'Laranjeiras Corp, Recife Brazil',
-      'Intern',
-      'Aug 2021 - Jan 2023',
+      'FIU',
+      'Software Engineering Group Leader',
+      'Aug 2023 - present',
       [
-        'Assist on Design of MySql Database.',
-        'Assist on creating front end application using Angular',
-        'Assist on creating back end application using Spring Boot'
+        "Designed project structure and defined technologies to use",
+        "Create UML diagrams and timeline for project.",
+        "Generated a document for beginner teammates to familiarize themselves with technologies."
       ]),
     new Job(
       'The Doral Yard, Miami FL',
@@ -35,6 +35,15 @@ export class ResumeComponent {
         'Manage and coordinate a team of 3 to ensure preparation for the upcoming day',
         'Aware of bartenders supply and restock as needed.',
         'Maintain organization throughout the bar for operations to run smoothly.',
+      ]),
+    new Job(
+      'Laranjeiras Corp, Recife Brazil',
+      'Intern',
+      'Aug 2021 - Jan 2022',
+      [
+        'Assist on Design of MySql Database.',
+        'Assist on creating front end application using Angular',
+        'Assist on creating back end application using Spring Boot'
       ]),
     new Job(
       'A to Z Towels, Miami FL',

@@ -33,9 +33,9 @@ p{
 }
 .list-group-item{
   background: transparent;
-  border-color: var(--primary-white);
+  /*border-color: var(--primary-white);*/
   color: var(--primary-white);
-  font-weight: 500;
+  font-weight: 300;
 }
 .card{
   /*width: fit-content;*/

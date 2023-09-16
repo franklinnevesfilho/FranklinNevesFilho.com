@@ -2,6 +2,15 @@ p{
   font-weight: 500;
   color: var(--primary-white);
 }
+a{
+  color: var(--primary-white);
+  padding: 2px;
+}
+a:hover{
+  border-radius: 0.5rem;
+  background-color: var(--primary-white);
+  color: var(--secondary-color)
+}
 .lead{
   color: var(--primary-white);
 }

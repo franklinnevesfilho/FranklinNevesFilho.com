@@ -1,11 +1,51 @@
 <div class="container">
   <p class="h1 text-uppercase header1 pb-2 text-center">Resume</p>
   <div class="container resume bg-dark mt-5 px-5 rounded">
+    <p class="h2 text-uppercase border-bottom">SKILLS</p>
+    <div class="row">
+      <div class="col">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Trilingual: <span class="fw-bold">Portuguese, English, Spanish</span></li>
+          <li class="list-group-item">Leadership</li>
+          <li class="list-group-item">Customer Service</li>
+          <li class="list-group-item">Multitasking</li>
+          <li class="list-group-item">Time management</li>
+          <li class="list-group-item">Familiar with: <span class="fw-bold">MySQL, Docker, Git, Maven</span></li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Knowledge of: <span class="fw-bold">Java, Spring Boot, Spring Security, Arduino,
+            C, Kotlin, Android Development, Relational Databases, Database Normalization,
+            Microservices</span></li>
+          <li class="list-group-item">Knowledge of Web development: <span class="fw-bold">Angular, React, Html, Css, Bootstrap, Tailwind, Javascript, Typescript</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <p class="h2 text-uppercase border-bottom">projects</p>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><span class="fw-bold">RememberThat?</span> - An Android matching game</li>
+          <li class="list-group-item"><span class="fw-bold">Weather Web App</span>- A weather app using real-time data and weather API.</li>
+          <li class="list-group-item"><span class="fw-bold">Hangman Challenge</span> - Using Java and JavaFx for the entire project.</li>
+          <li class="list-group-item"><span class="fw-bold">InventoryRecords</span> - An inventory management system designed for The Doral Yard to improve the organization of inventory</li>
+          <li class="list-group-item"><span class="fw-bold">Digital Totem Catalog Display</span> - A web application to display ‘A to Z’s’ merchandise at conventions.</li>
+        </ul>
+      </div>
+      <div class="col">
+        <p class="h2 text-uppercase border-bottom">certifications</p>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><span class="fw-bold">SQL Relational Databases 101</span> - 2023</li>
+          <li class="list-group-item"><span class="fw-bold">Docker Essentials</span> - 2023</li>
+        </ul>
+      </div>
+    </div>
     <div class="row">
       <p class="h2 mt-1 text-uppercase border-bottom">Education</p>
       <div class="row ms-3 mt-2 d-flex">
         <p class="h5 text-accent">Florida International University | Predicted 2024 |</p>
-        <p class="lead ms-3">Bachelor of computer science</p>
+        <p class="lead ms-3">Bachelor of  Science in Computer Science (Software Development Track)</p>
       </div>
       <div class="row ms-3 mt-2">
         <p class="h5 text-accent">Miami Dade College | 2022 |</p>
@@ -13,7 +53,7 @@
       </div>
       <div class="row ms-3 mt-2">
         <p class="h5 text-accent">Ronald W Reagan Doral Senior High School | 2021 |</p>
-        <p class="lead ms-3">High School Diploma</p>
+        <p class="lead ms-3">Cambridge AICE Diploma / High School Diploma</p>
       </div>
     </div>
     <div class="row justify-content-evenly">
@@ -25,39 +65,6 @@
           <li *ngFor="let desc of job.descriptions">{{ desc }}</li>
         </ul>
       </div>
-    </div>
-    <div class="row mt-2">
-      <p class="h2 text-uppercase header">Skills</p>
-      <ul class="list-group list-group-flush ms-5">
-        <li class="list-group-item">Leadership</li>
-        <li class="list-group-item">Customer Service</li>
-        <li class="list-group-item">Multitasking</li>
-        <li class="list-group-item">Time Management</li>
-        <li class="list-group-item">Self-Motivated</li>
-        <li class="list-group-item">Junior Android Developer</li>
-        <li class="list-group-item">
-          Knowledge of:
-          <ul>
-            <li>Java</li>
-            <li>F#</li>
-            <li>C</li>
-            <li>Arduino</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JS / TS</li>
-            <li>Angular</li>
-            <li>Bootstrap</li>
-          </ul>
-        </li>
-        <li class="list-group-item">
-        Trilingual
-          <ul>
-            <li>Portuguese</li>
-            <li>English</li>
-            <li>Intermediate Spanish test</li>
-          </ul>
-        </li>
-      </ul>
     </div>
   </div>
 </div>
